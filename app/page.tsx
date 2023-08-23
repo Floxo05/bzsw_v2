@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "@/Components/Footer";
+import Link from "next/link";
 
 const Home: React.FC = () => {
     return (
@@ -8,9 +8,9 @@ const Home: React.FC = () => {
             <p className="text-lg mb-6">
                 Wir freuen uns, dich auf unserer Plattform begrüßen zu dürfen.
             </p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded">
+            <Link href="/auth/login" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded">
                 Zum Login
-            </button>
+            </Link>
         </>
     )
 }
