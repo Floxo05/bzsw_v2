@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from "next/link";
+import NavigationsMenu from "@/Components/NavigationsMenu";
 
 const Header = () => {
     return (
@@ -10,6 +11,7 @@ const Header = () => {
                 </Link>
             </div>
             <p className="text-right">Willkommen auf unserer App!</p>
+            <NavigationsMenu />
         </header>
     );
 };
