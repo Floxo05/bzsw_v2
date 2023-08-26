@@ -12,7 +12,7 @@ const Login = () => {
                 <InputField label="Benutzername" type="text" name="username" id="username" />
                 <InputField label="Passwort" type="password" name="password" id="password" />
 
-                <Button label={"Anmelden"} type={"submit"} />
+                <Button label={"Anmelden"} type={"submit"} className={"mt-3"}/>
             </form>
             <p className="mt-4">
                 Noch kein Konto?{' '}

@@ -16,7 +16,7 @@ const Register: React.FC = () => {
                     name="passwordRepeat"
                     id="passwordRepeat"
                 />
-                <Button label="Registrieren" type="submit"/>
+                <Button label="Registrieren" type="submit" className={"mt-3"}/>
             </form>
             <p className="mt-4">
                 Schon ein Konto?{' '}
