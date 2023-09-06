@@ -14,9 +14,8 @@ const Button: React.FC<ButtonProps> = ({ label, type , handleClick, btnKey, clas
     return (
         <button
             type={type}
-            className={`bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded ${className}`}
+            className={`text-white rounded ${className ? className : ''}`}
             onClick={handleClick}
-            key={btnKey}
         >
             {label}
         </button>
